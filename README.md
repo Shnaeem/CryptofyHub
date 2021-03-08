@@ -1,7 +1,5 @@
-# phase2project
+# CryptofyHub
 ![](/img/mockups/readme_banner.png)
-
-## **CryptofyHub**
 
 ## What is CryptofyHub?:
 CryptofyHub is a digital currency platform. User’s can check up to date digital currency prices. CryptofyHub is the most up to date and intuitive digital currency platform where users can check for latest digital currency rates. 
