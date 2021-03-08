@@ -2,6 +2,7 @@
 ![](/img/mockups/readme_banner.png)
 
 ## **CryptofyHub**
+![](/img/component.png)
 
 ## What is CryptofyHub?:
 CryptofyHub is a digital currency platform. User’s can check up to date digital currency prices. CryptofyHub is the most up to date and intuitive digital currency platform where users can check for latest digital currency rates. 
@@ -39,6 +40,9 @@ _This is an example of a responsive mobile wireframe;_
 - [Material UI / Tailwind CSS](***)
 - [Figma](https://www.figma.com/) 
 - [Coin Gecko](https://www.coingecko.com/api/documentations/v3)
+
+## Component:
+
 
 
 ## Team members:
