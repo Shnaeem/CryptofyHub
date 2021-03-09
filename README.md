@@ -6,8 +6,8 @@ CryptofyHub is a digital currency platform. User’s can check up to date digita
 Digital currency is a form of currency that is available only in digital or electronic form, and not in physical form. It is also called digital money, electronic money, electronic currency, or cyber cash.
 
 ### Features:
-- User will see a **Trending** Crypto on the home page
-- User will see a list of all Crypto on the List of Digital currency page
+- User will see a **Trending Crypto** on the home page
+- User will see a **List of all Crypto** on the List of Digital currency page
 - User will be able to **search for specific Crypto Currency**
 - User will be able to **see Details of Individual Crypto Currency**
 - User will be able to **see Graph of Historical Prices**
@@ -27,14 +27,7 @@ _This is an example of a responsive mobile wireframe;_ <br/>
 <a href="https://imgur.com/6AVE1CF"><img src="https://i.imgur.com/6AVE1CF.png" title="source: imgur.com" /></a><br/>
 <a href="https://imgur.com/LaRMvGg"><img src="https://i.imgur.com/LaRMvGg.png" title="source: imgur.com" /></a><br/>
 <a href="https://imgur.com/A5U2VBV"><img src="https://i.imgur.com/A5U2VBV.png" title="source: imgur.com" /></a><br/>
-
-
-
-
-
-
 ## This project is built using:
-
 - `HTML/CSS`
 - `Vanilla Javascript`
 - [React.js](https://reactjs.org/)
@@ -53,7 +46,6 @@ _This is an example of a responsive mobile wireframe;_ <br/>
 ## Team members:
 
 This project is actively being built by Web Development Fellows **Zipporah Najar, Naeem Shafi && Nasheed Chowdhury** from [The Knowledge House](https://www.theknowledgehouse.org/)
-
 
 ## Inspiration:
 
