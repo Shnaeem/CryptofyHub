@@ -1,9 +1,11 @@
 import './App.css';
+import LandingPage from "./components/Pages/LandingPage"
 
 function App() {
   return (
     <div className="App">
-      <p>Project Start</p>
+      <LandingPage />
+
     </div>
   );
 }
