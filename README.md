@@ -17,11 +17,7 @@ Digital currency is a form of currency that is available only in digital or elec
 ## Wireframes: 
 
 _This is an example of a static desktop wireframe;_ <br/>
-<a href="https://imgur.com/EflCykj"><img src="https://i.imgur.com/EflCykj.png" title="source: imgur.com" /></a><br/>
-<a href="https://imgur.com/WPtlBWe"><img src="https://i.imgur.com/WPtlBWe.png" title="source: imgur.com" /></a><br/>
-<a href="https://imgur.com/3oARB9a"><img src="https://i.imgur.com/3oARB9a.png" title="source: imgur.com" /></a><br/>
-<a href="https://imgur.com/S4DDZhz"><img src="https://i.imgur.com/S4DDZhz.png" title="source: imgur.com" /></a><br/>
-<a href="https://imgur.com/BCHWskd"><img src="https://i.imgur.com/BCHWskd.png" title="source: imgur.com" /></a><br/>
+<a href="https://imgur.com/nXvF7gU"><img src="https://i.imgur.com/nXvF7gU.png" title="source: imgur.com" /></a><br/>
 
 _This is an example of a responsive mobile wireframe;_ <br/>
 <a href="https://imgur.com/4xmepw8"><img src="https://i.imgur.com/4xmepw8.png" title="source: imgur.com" /></a><br/>
