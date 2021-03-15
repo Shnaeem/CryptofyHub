@@ -1,6 +1,8 @@
+* {
+  font-family: Roboto, sans-serif;
+}
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -11,12 +13,14 @@ nav {
   display: flex;
   padding: 2rem 0;
   background: #111;
+  
 }
 nav section {
   width: 100%;
 }
 nav a {
-  font-weight: 700;
+  /* font-weight: 700; */
+  font-size: 27px;
   padding: 1rem 1.5rem;
   border-radius: 4px;
 }
@@ -24,7 +28,11 @@ nav a:first-of-type {
   margin-left: -1.5rem;
 }
 nav a:hover {
-  background: #222;
+  display: block;
+  cursor: pointer;
+  background-color: #FECE46;
+  border-radius: 30px;
+  color: black;
 }
 a {
   color: #ea3546;
@@ -72,3 +80,46 @@ section h1 {
   background-color: rgba(104, 20, 211, .6);
   
 }
+
+.landButton {
+  display: block;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  background-color: #FECE46;
+  width: 400px;
+  height: 70px;
+  border-radius: 30px;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: black;
+  background-size: 100% 100%;
+  box-shadow: 0 0 0 7px #FECE46 inset;
+  margin-bottom: 15px;
+}
+
+.img-container img{
+  width: 250px;
+  margin: 30px 30px 30px 0;
+  float: left;
+  background-position: 50% 0%;
+}
+
+.text-container {
+  display: inline; 
+   float: right;
+}
+.container h2 {
+  text-align: center;
+  font-size: 40px;
+}
+/* .container button {
+  display: inline-block;
+  align-items: center; 
+  width: 46%;
+} */
+
+.container {
+  display: inline;
+}
+

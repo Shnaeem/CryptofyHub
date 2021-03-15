@@ -10,9 +10,9 @@ import './MainCss/custom.css'
 const App = () => {
   return (
     <Router>
-    <div className = "App">
-      <div className="page-container">
-          <nav className = "Navbar">
+      <div className="App">
+        <div className="page-container">
+          <nav className="Navbar">
             <li>
               <Link exact to="/LandingPage">Icon</Link>
             </li>
@@ -34,7 +34,7 @@ const App = () => {
           <div className="content-wrap">
             <main>
 
-           
+
               <Switch>
                 <Route exact path="/" component={LandingPage} />
                 <Route exact path="/Home" component={Home} />
@@ -43,16 +43,16 @@ const App = () => {
                 <Route exact path="/Aboutus" component={Aboutus} />
                 <Redirect to="/" />
               </Switch>
-           
+
             </main>
             <footer className="footer">
-              <p>Copyight &#169; Naeem Shafi, Nasheed Chowdhary && Zipporah Najar 2021</p>
+              <p>Copyright &#169; 2021, Naeem Shafi, Nashid Chowdhury & Zipporah Najar </p>
             </footer>
           </div>
+        </div>
       </div>
-    </div>
-    </Router>   
-    
+    </Router >
+
   );
 }
 
