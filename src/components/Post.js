@@ -1,16 +1,26 @@
-export const Post = ({post}) => {
+import { Link } from "react-router-dom";
 
-
-    return(
-        <div className="post-excerpt"> 
-            <img src={post.image} alt={post.id}/>
-            <h1>{post.name} </h1>
-            <h3>${post.current_price} </h3>
-            {/* <p> <strong> Last Updated:</strong> {post.last_updated}</p> */}
-            <p> <strong> 24 hr High: </strong> {post.high_24h} </p>
-            <p> <strong> 24 hr Low: </strong> {post.low_24h} </p>
-            <p> <strong> Price Change 24 hr: </strong> {post.price_change_24h} </p>
-            
-        </div>  
-    )
-}
+export const Post = ({ post }) => {
+  return (
+    <Link
+      to={{
+        pathname: "/postdetails",
+        props: {
+          id: post.id,
+          name: post.name,
+          image: post.image,
+          currentprice: post.current_price,
+          lastupdated: post.last_updated,
+          high: post.high_24h,
+          low: post.low_24h,
+          pricechange: post.price_change_24h,
+        },
+      }}
+    >
+      <div className="post-excerpt">
+        <h1>{post.name} </h1>
+        <h3>${post.current_price} </h3>
+      </div>
+    </Link>
+  );
+};

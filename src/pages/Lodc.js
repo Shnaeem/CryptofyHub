@@ -11,8 +11,10 @@ const Lodc = ({ dispatch, loading, posts, hasErrors }) => {
   }, [dispatch])
 
   const renderPosts = () => {
-    if (loading) return <p>Loading posts..</p>
-    if (hasErrors) return <p>Unable to display posts</p>
+    
+    if (loading) return <p>Loading data..</p>
+    if (hasErrors) return <p>Unable to display data</p>
+
     return posts.map((post) => 
       <Post 
         key={post.id} 

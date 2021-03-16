@@ -4,6 +4,7 @@ import Faqs from './pages/Faqs';
 import Home from './pages/Home';
 import LandingPage from './pages/LandingPage';
 import Lodc from './pages/Lodc';
+import PostDetails from './components/PostDetails'
 import './MainCss/custom.css'
 
 
@@ -41,6 +42,7 @@ const App = () => {
                 <Route exact path="/Lodc" component={Lodc} />
                 <Route exact path="/Faqs" component={Faqs} />
                 <Route exact path="/Aboutus" component={Aboutus} />
+                <Route exact path="/postdetails" component={PostDetails} />
                 <Redirect to="/" />
               </Switch>
            
