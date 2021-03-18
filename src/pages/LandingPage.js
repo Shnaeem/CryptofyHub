@@ -1,16 +1,23 @@
-import axios from "axios";
-import React, { useState, useEffect } from "react";
+import React from "react"
+import { Link } from "react-router-dom"
+
 
 function LandingPage() {
 
-
-    return (
-      <div>
-          <h1> LandingPage</h1>
-            
-
+  return (
+    <div className="container">
+      <div className="home" >
+        <div className="img-container">
+          <img src="https://i.imgur.com/mh2x7DI.png" /><br />
+        </div>
+        <div className="text-container">
+          <h2>Welcome to Cryptofy Hub</h2>
+          <Link to="/Aboutus"><button className="landButton">Learn About Us</button></Link>
+          <Link to="/Home"><button className="landButton">Take Me To Home</button></Link>
+        </div>
       </div>
-    )
-  }
-  
-  export default LandingPage;
+    </div>
+  )
+}
+
+export default LandingPage;
