@@ -3,10 +3,16 @@ function Faqs() {
 
   return (
     <div>
-      <h1> Faqs</h1>
 
-      <h3>What is cryptocurrency?</h3>
-      <p>Cryptocurrency is a type of virtual currency that uses cryptography to secure transactions that are digitally recorded on a distributed ledger, such as a blockchain.  A transaction involving cryptocurrency that is recorded on a distributed ledger is referred to as an “on-chain” transaction; a transaction that is not recorded on the distributed ledger is referred to as an “off-chain” transaction.</p>
+      <h1> Frequenty Asked Questions</h1>
+
+      <div className="question">
+        <h3>What is cryptocurrency?</h3>
+      </div>
+
+      <div className="answer">
+        <p>Cryptocurrency is a type of virtual currency that uses cryptography to secure transactions that are digitally recorded on a distributed ledger, such as a blockchain.  A transaction involving cryptocurrency that is recorded on a distributed ledger is referred to as an “on-chain” transaction; a transaction that is not recorded on the distributed ledger is referred to as an “off-chain” transaction.</p>
+      </div>
 
       <h3>What is market cap?</h3>
       <p>The total market value of a cryptocurrency's circulating supply. It is analogous to the free-float capitalization in the stock market.
