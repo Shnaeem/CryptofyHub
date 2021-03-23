@@ -5,8 +5,9 @@ import { Link } from "react-router-dom"
 function LandingPage() {
 
   return (
-    <div className="container">
-      <div className="home" >
+    <div className="home" >
+      <div className="container">
+
         <div className="img-container">
           <img src="https://i.imgur.com/mh2x7DI.png" /><br />
         </div>
