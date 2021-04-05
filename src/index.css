@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lobster&display=swap');
 * {
   font-family: Roboto, sans-serif;
-  border: solid black 2px;
+  /* border: solid black 2px; */
 }
 body {
   margin: 0;
