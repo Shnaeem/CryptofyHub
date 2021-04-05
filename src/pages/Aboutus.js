@@ -22,7 +22,7 @@ function Aboutus() {
             </ul>
           </div>
         </div>  
-        <div className="developers">
+        {/* <div className="developers">
           <h3>Developers:</h3>
           <ul>
             <li>Naeem</li>
@@ -44,7 +44,7 @@ function Aboutus() {
             <li>Github</li>
           </ul>
 
-        </div>
+        </div> */}
       </div>
     </div>
   )

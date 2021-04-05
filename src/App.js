@@ -5,7 +5,7 @@ import Home from './pages/Home';
 import LandingPage from './pages/LandingPage';
 import Lodc from './pages/Lodc';
 import PostDetails from './components/PostDetails'
-import './MainCss/custom.css'
+import './MainCss/custom.css';
 
 
 const App = () => {

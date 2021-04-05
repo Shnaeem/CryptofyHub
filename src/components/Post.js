@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import '../MainCss/lodc.css';
 
 export const Post = ({ post }) => {
   return (
@@ -17,7 +18,8 @@ export const Post = ({ post }) => {
         },
       }}
     >
-      <div className="post-excerpt">
+      <div className="post-excerpt listings">
+        <img className="coin-image" src={post.image} alt={post.id} />
         <h1>{post.name} </h1>
         <h3>${post.current_price} </h3>
       </div>

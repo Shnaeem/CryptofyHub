@@ -24,7 +24,7 @@ nav section {
 }
 nav a {
   /* font-weight: 700; */
-  font-size: 27px;
+  font-size: 2.5vw;
   padding: 1rem 1.5rem;
   border-radius: 4px;
 }
@@ -131,3 +131,5 @@ section h1 {
 .container {
   display: inline;
 }
+
+
