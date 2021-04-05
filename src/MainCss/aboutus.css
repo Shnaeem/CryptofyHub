@@ -18,7 +18,7 @@
     border-radius: 30px;
     padding: 2em;
     margin: 2em;
-    width: 250px;
+    min-width: 80%;
 
 }
 
@@ -28,7 +28,7 @@
     border-radius: 30px;
     padding: 2em;
     margin: 2em;
-    width: 250px;
+    min-width: 80%;
 }
 
 .features-list{
