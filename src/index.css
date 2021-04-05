@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lobster&display=swap');
 * {
   font-family: Roboto, sans-serif;
+  border: solid black 2px;
 }
 body {
   margin: 0;
@@ -78,24 +81,24 @@ section h1 {
 
 .home {
   background-color: rgba(104, 20, 211, .6);
-  
+  margin: 10%;
+  border-radius: 30px;
+  padding: 1%;
 }
 
 .landButton {
-  display: block;
   cursor: pointer;
   outline: none;
   border: none;
   background-color: #FECE46;
-  width: 400px;
-  height: 70px;
+  padding: 8% 10%;
   border-radius: 30px;
   font-size: 1.5rem;
-  font-weight: 600;
+  font-weight: 500;
+  font-family: 'Abril Fatface', cursive;
   color: black;
-  background-size: 100% 100%;
-  box-shadow: 0 0 0 7px #FECE46 inset;
-  margin-bottom: 15px;
+  background-size: 100%;
+  box-shadow: 0 0 0 7px #fece46 inset;
 }
 
 .img-container img{
@@ -107,11 +110,16 @@ section h1 {
 
 .text-container {
   display: inline; 
-   float: right;
 }
 .container h2 {
   text-align: center;
-  font-size: 40px;
+  color: #fece46;
+  font-size: 3em;
+  font-family: 'Lobster', cursive;
+  background-color: white;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 30px;
 }
 /* .container button {
   display: inline-block;
@@ -122,4 +130,3 @@ section h1 {
 .container {
   display: inline;
 }
-
