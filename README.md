@@ -36,6 +36,7 @@ _This is an example of a responsive mobile wireframe;_ <br/>
 - [React.js](https://reactjs.org/)
 - [React Router](https://reactrouter.com/)
 - [React Native](https://reactnative.dev/)
+- [Redux](https://redux.js.org/)
 - [Expo](https://expo.io/)
 - [React Navigation](https://reactnavigation.org/)
 - [Axios](https://www.npmjs.com/package/axios)
