@@ -1,6 +1,8 @@
 .aboutus-container{
     margin: 2em;
     padding: 2em;
+    display: flex;
+    flex-direction: column;
 }
 
 .conts{
@@ -10,6 +12,12 @@
 }
 .aboutus-heading{
     text-align: center;
+    border-radius: 30px;
+    background: #fece46;
+    align-self: center;
+    width: 30vw;
+    color: black;
+    padding: 10px;
     
 }
 

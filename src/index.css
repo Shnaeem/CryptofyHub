@@ -131,5 +131,18 @@ section h1 {
 .container {
   display: inline;
 }
+.lodc-section{
+  display: flex;
+  flex-direction: column;
+}
 
+.heading-lodc{
+  text-align: center;
+  border-radius: 30px;
+  background: #fece46;
+  align-self: center;
+  width: 50vw;
+  color: black;
+  padding: 10px;
+}
 

@@ -1,6 +1,6 @@
 .faqs-container{
     margin: 2em;
-    padding: 2em;
+    padding: 1em;
     display: flex;
     flex-direction: column;
 }
@@ -11,13 +11,12 @@
     background: #fece46;
     align-self: center;
     width: 120px;
-    color: white;
+    color: black;
     padding: 10px;
 }
 .question-container{
     border-radius: 30px;
     padding: 30px;
-    background-color: aquamarine;
+    background-color: #fece46;
     margin: 10px 0;
-
 }

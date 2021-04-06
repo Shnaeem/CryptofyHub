@@ -24,8 +24,8 @@ const Lodc = ({ dispatch, loading, posts, hasErrors }) => {
   }
 
   return (
-    <section>
-      <h1>List of Digital Currency</h1>
+    <section className="lodc-section">
+      <h1 className="heading-lodc">List of Digital Currency</h1>
       {renderPosts()}
     </section>
   )

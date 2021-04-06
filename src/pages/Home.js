@@ -18,8 +18,9 @@ function Home() {
 
     return (
       <div className="Main">
-          <h1 className="trendheading"> Top 7 Trending Currencies:</h1>
+          
           <div className="currency-container">
+          <h1 className="trendheading"> Top 7 Trending Currencies</h1>
             {data.map((coins, index) => {
                 return (
                 <div className="currencylist" key={index}>
