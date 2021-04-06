@@ -8,9 +8,7 @@ Digital currency is a form of currency that is available only in digital or elec
 ### Features:
 - User will see a **Trending Crypto** on the home page
 - User will see a **List of all Crypto** on the List of Digital currency page
-- User will be able to **search for specific Crypto Currency**
 - User will be able to **see Details of Individual Crypto Currency**
-- User will be able to **see Graph of Historical Prices**
 - User will be able to **Access FAQ's**
 - Responsive layout
 
